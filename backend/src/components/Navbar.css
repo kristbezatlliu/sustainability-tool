@@ -1,0 +1,32 @@
+/* Normal Navbar posht*/
+
+.NavBar{
+    position: absolute;
+    box-sizing: border-box;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5vw;
+    z-index: 9999;
+}
+
+.NavBar img{
+    width: auto;
+    height:50px;
+    vertical-align: middle;
+    z-index: 1000;
+}
+
+.navList{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+    list-style: none;
+}
+
+.navList a{
+    font-size:1.15em;
+    text-decoration: none;
+    color:#fff;
+}

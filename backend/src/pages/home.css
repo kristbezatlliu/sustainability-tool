@@ -1,0 +1,207 @@
+.earth_canvas{
+    /* Backgroundi i Universit*/
+    background-color: rgba(0,0,11,1);
+}
+
+section{
+    max-width: 100%;
+}
+/* Section i Par*/
+.TopSection{
+    position:absolute;
+    box-sizing: border-box;
+
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left: 0;
+
+    /* kjo esht nje Vignette */
+    
+    color:#fff;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index:999;
+}
+
+.TopSection h1{
+    overflow: hidden;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    font-size: 8em;
+    font-weight:600;
+    margin:0;
+}
+
+.TopSection h2{
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    font-weight:400;
+}
+
+.TopSection button{
+    margin-top:20px;
+    color: #fff;
+    background-color: #ffffff00;
+    border: 3px solid #fff;
+    border-radius: 25px;
+    width:150px;
+    height:55px;
+    font-size:1.1em;
+}
+
+.TopSection button:hover{
+    color:#9dd3ff;
+    border: 3px solid #9dd3ff;
+}
+
+/* Section i dyte */
+.SecondSection {
+    width:100vw;
+    height:100vh;
+    color:#fff;
+    background-color: rgba(0,0,11,1);
+}
+
+.SecondSection h1{
+    margin: 0;
+}
+
+.secondTopSection{
+    position: absolute;
+    top: 100%;
+    z-index: 999;
+
+    padding-top:10%;
+    max-width: 100%;
+    width: 100vw;
+    height:100vh;
+
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.secondTopSection img{
+    height:40%;
+    width: auto;
+}
+.secondTopSection h1{
+    font-size: 4em;
+}
+
+.secondTopSection p{
+    font-size: 1.2em;
+}
+
+/* Section i tret */
+
+.ThirdSection{
+    width: 100vw;
+    height: 100vh;
+
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(45deg, #0e0e0e 0%, #080808 100%);
+    
+    box-sizing: border-box;
+    padding: 0 5vw;
+    color:#fff;
+    display:flex;
+    flex-direction: row;
+}
+
+.third_group{
+    width:45%;
+    height:60%;
+}
+
+.ThirdSection h1{
+    margin:0;
+    font-size: 4em;
+}
+
+.ThirdSection p{
+    font-size: 1.2em;
+}
+
+/* Section i Katert */
+
+.FourthSection{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    width:100vw;
+    height:100vh;
+
+    box-sizing: border-box;
+    padding: 0 5vw;
+    
+    background-color: #0e0e0e;
+    color:#fff;
+}
+
+.FourthSection h1{
+    font-size: 4em;
+}
+
+.team{
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section i pest*/
+
+.FifthSection{
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color:#fff;
+
+    background-image: url("../images/industrial.jpg");
+    background-size: cover;
+    background-position: top;
+    width: 100vw;
+    height: 100vh;
+}
+
+.fifth_group{
+    position: relative;
+    top: 15%;
+}
+
+.FifthSection h1{
+    font-size:8.5em;
+    margin: 0;
+}
+
+.FifthSection h4{
+    font-size: 1.25em;
+}
+
+.input_list{
+    gap:5px;
+    margin: 0;
+    padding: 0;
+}
+
+.input_list li{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}

@@ -1,0 +1,103 @@
+
+input {
+    min-height:20px;
+    height:auto;
+    border-radius:5px;
+    border: 1px solid #d1d1d1;
+}
+
+.App{
+    width:100%;
+    align-content: center;
+}
+
+.selection{
+    flex-shrink: 1;
+    width:700px;
+}
+
+.selection button{
+    width:25%;
+    height:50px;
+}
+
+#box{
+    display:flex;
+    justify-content:space-between;
+    padding-left:20px;
+    padding-right:20px;
+    width:660px;
+    min-height:400px;
+    border: 1px solid #d1d1d1;
+}
+
+.left_half, .right_half{
+    display:flex;
+    min-width: 250px;
+    height:auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right_half{
+    width:300px;
+    max-width: 300px;
+}
+.right_half button{
+    width:300px;
+    height:50px;
+    bottom:0%;
+}
+
+.group{
+    width:325px;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.row{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.counter{
+    font-size: 3em;
+    margin:0;
+    padding:0;
+}
+
+.summary{
+    width:100%;
+}
+
+/* Service js */
+
+.reduceOptionsList h2{
+    padding-top:20px;
+    padding-bottom:10px;
+    margin:0;
+}
+
+.reduceOptionsList ul{
+    list-style: none;
+    text-decoration: none;
+    margin:0;
+    padding:0;
+}
+
+.input_list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    list-style:none;
+}
+
+[type="checkbox"]
+{
+    width:20px;
+    height:20px;
+    vertical-align:middle;
+}

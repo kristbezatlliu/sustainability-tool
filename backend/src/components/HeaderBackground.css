@@ -1,0 +1,23 @@
+.EarthHeader{
+    background-image: url('../images/earth_section.jpg');
+    background-position: 0 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    max-width:100%;
+    width:100vw;
+    height:300px;
+}
+
+.EarthHeader{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.EarthHeader h1{
+    color:#fff;
+    font-weight:600;
+    font-size:3.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
